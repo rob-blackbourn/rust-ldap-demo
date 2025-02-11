@@ -1,0 +1,10 @@
+[package]
+name = "ldap_ex1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ldap3 = { version = "0.11.5", features = ["tls-rustls"], default-features = false}
+tokio = { version = "1", features = [ "full", "rt" ] }
+# tokio-rustls = "0.26.0"
+rustls-pemfile = "2.1.3"
