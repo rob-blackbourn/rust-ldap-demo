@@ -1,6 +1,6 @@
 # rust-ldap-demo
 
-An example of using async LDAP over TLS with rust.
+An example of authenticating using async LDAP over TLS with rust.
 
 Using:
 
