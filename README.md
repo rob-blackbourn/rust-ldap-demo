@@ -4,9 +4,9 @@ An example of using async LDAP over TLS with rust.
 
 Using:
 
-* ldap3
-* tokio
-* rustls
+* [ldap3](https://crates.io/crates/ldap3)
+* [tokio](https://crates.io/crates/tokio)
+* [rustls](https://crates.io/crates/rustls)
 
 ## Notes
 
