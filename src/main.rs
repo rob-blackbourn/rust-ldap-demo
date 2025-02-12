@@ -4,7 +4,7 @@ use std::io;
 #[tokio::main]
 async fn main() -> io::Result<()> {
     let url = "ldaps://localhost:636";
-    let username = "jane@example.com";
+    let username = "stella@example.com";
     let password = "password";
     let is_authenticated = authenticate(&url, &username, &password).await?;
 
